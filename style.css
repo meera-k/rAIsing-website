@@ -1,28 +1,28 @@
-:root {
+:root { /* define vars here */
     --teal: hsl(192, 55%, 34%);
 }
 
-body {
+body { /* formatting for the whole site */
     font-family: "Montserrat", sans-serif;
 }
 
-header {
+header { /* navbar */
     position: relative;
 }
 
-h1 {
+h1 { /* eg 'listen on..', 'connect with us', etc */
     text-align: center;
     color: var(--teal);
 }
 
-#podcast_cover {
+#podcast_cover { /* image in 'listen on..' section */
     position: absolute;
     left: 0px;
     width: 100%;
     height: auto;
 }
 
-.button {
+.listen_button { /* 'listen on..' buttons */
     border-style: solid;
     border-color: var(--teal);
     color: var(--teal);
@@ -37,11 +37,11 @@ h1 {
     right: 0px;
 }
 
-.flex_grid {
+.flex_grid { /* for the 'listen on..' section */
     display: flex;
     justify-content: space-between;
 }
 
-.col {
+.col { /* for the flex grid in 'listen on..' */
     flex: 1;
 }
