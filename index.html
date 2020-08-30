@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+	<style>
+		:root {
+			--teal: hsl(192, 55%, 34%);
+		}
+
+		body {
+			font-family: "Montserrat", sans-serif;
+		}
+
+		header {
+			position: relative;
+		}
+
+		h1 {
+			text-align: center;
+			color: var(--teal);
+		}
+
+		#podcast_cover {
+			position: absolute;
+			left: 0px;
+			width: 100%;
+			height: auto;
+
+		}
+
+		.button {
+			border-style: solid;
+			border-color: var(--teal);
+			color: var(--teal);
+			padding: 20px 34px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 20px;
+			margin: 4px 2px;
+			cursor: pointer;
+			position: absolute;
+			right: 0px;
+		}
+
+		.flex_grid {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.col {
+			flex: 1;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<h1>Sofia Font</h1>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+
+	<div class="flex_grid">
+
+		<div class="col">
+			<img id="podcast_cover" src="raising7.jpg" alt="Raising Podcast Cover ART" width="128" height="128">
+			</div>
+      
+      <div class="col">
+        <a href="https://open.spotify.com/show/77xQnWfh6Yyy7nOGAc1e8f?si=Ds7-i2bOS2CcGTly_Re-JQ" class="button">Spotify</a>
+        <a href="https://anchor.fm/raising" class="button">Anchor</a>
+        <a href="https://podcasts.apple.com/us/podcast/raising-the-bar/id1524359470?ign-mpt=uo%3D4" class="button">Apple Podcast</a>
+        <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yNjYzNDg2MC9wb2RjYXN0L3Jzcw==" class="button">Google Podcast</a>
+        <a href="" class="button">Breaker</a>
+			</div>
+      
+    </div>
+    
+  </body>
+</html>
