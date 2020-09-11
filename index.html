@@ -1,27 +1,109 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-		<link rel="stylesheet" href="style.css">
+<head>
+<title>rAIsing the Bar</title>
+<script src="https://kit.fontawesome.com/1d8fa7ca46.js" crossorigin="anonymous"></script>
+<style>
+/* montserrat-regular - latin */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-	</head>
+.a {
+  	background-color: transparent;
+	box-shadow: 0.2px 0.2px 0px 2px #2a878f;
+  	border-radius: 8px;
+  	color: #2a878f;
+  	padding: 15px 32px;
+	margin-bottom: 75px;
+  	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
 
-	<body>
-		<h1>Sofia Font</h1>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+.a:hover {
+	font-weight: 900;
+	background-color: #2a878f;
+	color: white;
+}
 
-		<div class="flex_grid">
-			<div class="col">
-				<img id="podcast_cover" src="raising7.jpg" alt="Raising Podcast Cover ART" width="128" height="128">
-			</div>
-      
-      		<div class="col">
-				<a href="https://open.spotify.com/show/77xQnWfh6Yyy7nOGAc1e8f?si=Ds7-i2bOS2CcGTly_Re-JQ" class="button">Spotify</a>
-				<a href="https://anchor.fm/raising" class="listen_button">Anchor</a>
-				<a href="https://podcasts.apple.com/us/podcast/raising-the-bar/id1524359470?ign-mpt=uo%3D4" class="listen_button">Apple Podcast</a>
-				<a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yNjYzNDg2MC9wb2RjYXN0L3Jzcw==" class="listen_button">Google Podcast</a>
-				<a href="" class="listen_button">Breaker</a>
-			</div>      
-	    </div>
-  </body>
+.about {
+	background: rgba(124, 123, 123, 0.3);
+	margin: -10px;
+	padding: 25px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: -10px;
+  margin-top: 500px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	background: linear-gradient(38deg, #FFECE5, #B4D3E5, #9DCBC8, #C3AED6, #92C7D8);
+	background-size: 600% 600%;
+	-webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+	animation: Gradient 20s ease infinite;
+}
+	
+    
+@-webkit-keyframes Gradient {
+	0%{background-position:0% 78%}
+	50%{background-position:100% 23%}
+	100%{background-position:0% 78%}
+}
+@-moz-keyframes Gradient {
+	0%{background-position:0% 78%}
+	50%{background-position:100% 23%}
+	100%{background-position:0% 78%}
+}
+@keyframes Gradient { 
+	0%{background-position:0% 78%}
+	50%{background-position:100% 23%}
+	100%{background-position:0% 78%}
+}
+
+p.style {
+    margin-left: 265px;
+    margin-right: 265px;
+}
+    
+</style>
+</head>
+
+<body>
+
+<div>
+	<img src="rAIsing_logo4.png" alt="logo" style="width:500px">
+</div>
+
+<div>
+	<a href="https://open.spotify.com/show/77xQnWfh6Yyy7nOGAc1e8f" class="a">LISTEN NOW</a>
+</div>
+
+<div class="about">
+	<h2>We're rAIsing the bar.</h2>
+	<p class="style">“rAIsing the bar” is a female-run podcast committed to broadening the AI conversation and sparking discussion around the ethics and controversies surrounding the field today.
+	By making AI more accessible in such an interconnected world, we aspire to foster an interest in AI for as many people as possible.</p>
+</div>
+
+<div class="footer">
+	<p>©rAIsing 2020</p>
+	<a style="padding-right:10px; color:white;" href="https://www.facebook.com/rAIsing.podcast"><i class="fa fa-facebook"></i></a>
+	<a style="padding-right:10px; color:white;" href="https://www.instagram.com/raising_podcast"><i class="fa fa-instagram"></i></a>
+	<a style="padding-right:10px; color:white;" href="https://twitter.com/rAIsing_podcast"><i class="fa fa-twitter"></i></a>
+	<a style="padding-right:10px; color:white;" href="https://www.youtube.com/channel/UC_yYSqDEQBUbu79uu8qohQw?view_as=subscriber"><i class="fa fa-youtube"></i></a>
+</div>
+
+</body>
 </html>
